@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu tincidunt erat. 
+    p A continuación, se presenta un esquema que sintetiza los elementos clave del componente formativo interpretación de prendas superiores para niñas. El organigrama representa la interpretación de prendas superiores para niñas a partir del patronaje, mostrando diferentes tipologías que se pueden desarrollar. Desde la categoría principal se desprenden seis tipos de prendas: blusa tipo marinero, blusa con cuello bebé y manga bombacha, camisera, blusa con manga raglán, jardinera, chaqueta casual y camiseta o camisilla básica. La estructura esquemática organiza de manera jerárquica los estilos de prendas, facilitando la comprensión de las variaciones de diseño que se trabajan en el patronaje infantil. 
     
 
     .row.justify-content-center

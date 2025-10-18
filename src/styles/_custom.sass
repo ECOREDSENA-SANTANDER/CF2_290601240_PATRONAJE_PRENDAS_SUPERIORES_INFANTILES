@@ -2,29 +2,216 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
+    top: 70%
+    left: 0%
+    width: 10%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 40%
+    left: 78%
+    width: 10%
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 60%
+    right: 20%
+    width: 10%
 
 @keyframes float1
   0%
     transform: translateY(20px)
   100%
     transform: translateY(0px)
-  
 
 .banner-principal .tarjeta
   background-position: left 50% !important
 .banner-principal__row .banner-principal__img
-  width: 400px !important  
+  width: 650px !important
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: white !important   
+  color: white !important
 .banner-interno__titulo__icono i
   color: $color-primario
 figcaption
   font-weight: normal
- 
+
+.img-a
+  display: block
+  margin: auto
+
+.img-t
+  width: auto !important
+  height: auto !important
+
+.mov
+  display: block
+  margin: auto
+  @media screen and (max-width: $bp-max-md)
+    width: auto !important
+    height: auto !important
+    display: block
+    margin: auto
+.j1
+  display: grid
+  align-items: center
+
+.ico-lista
+  img
+    width: 6%
+    margin-right: 10px
+    position: relative
+    top: -2px
+    max-width: 34px
+  span
+    width: 94%
+.fa-lista
+  li
+    display: flex !important
+    align-items: flex-start
+  li:before
+    position: relative
+    margin-right: 7px
+    font-size: 1.4rem
+
+.br
+  &-1
+    border-radius: 10px !important
+  &-2
+    border-radius: 20px !important
+.bg-color
+  &-1
+    background-color: #AAEDDA
+  &-2
+    background-image: url("../assets/curso/temas/10.png") !important
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center
+    border-radius: 20px
+
+    &:hover
+      background-image: url("../assets/curso/temas/9.png") !important
+      background-repeat: no-repeat
+      background-size: cover
+      background-position: center
+      border-radius: 20px
+  &-3
+    background-color: #F3F9FF
+  &-4
+    background-color: #FAC6C0
+  &-5
+    background-color: #FAE797
+  &-6
+    background-color: #E5FAFB
+  &-7
+    background-color: #EBE5F6
+  &-8
+    background-color: #EBE5F6
+  &-9
+    background-color: #EBE5F6
+  &-10
+    background-color: #EBE5F6
+
+.slyder-f__btn
+  i
+    color: #FFD504
+
+.subt
+  background-color: #FAC6C0
+  border-top-right-radius: 50px
+  border-bottom-right-radius: 10px
+  width: fit-content
+  height: 43px !important
+
+  img
+    width: 50px
+    z-index: 99
+    margin-top: -2.8%
+  .deco
+    position: relative
+    &::before
+      content: ''
+      position: absolute
+      width: 30px
+      height: 100%
+      background-color: #FAC6C0
+      border-top-right-radius: 100px
+      border-bottom-right-radius: 100px
+      left: 0px
+      top: 0
+
+.acordion__header--active__btn--a
+  background-color: #FF8C80 !important
+  h4, i
+    color: #000 !important
+
+.acordion
+  .tarjeta.bg1
+    background-color: #FFEDF5
+
+.tarjeta.bg1.acordion__activo
+  background-color: #AAEDDA !important
+  *
+    color: #12263F !important
+.acordion__accion__btn--a
+  background-color: #FDB641 !important
+  border: 0px
+
+.linea-tiempo-d
+  &__item
+    &--selected
+      .linea-tiempo-d
+        &__item
+          &__content
+            background-color: #AAEDDA !important
+
+    &__content
+      background-color: #FFEDF5 !important
+
+.linea-tiempo-d__item__number
+  background-color: #FFEDF5 !important
+
+.linea-tiempo-d.color-acento-botones .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+  background-color: #FFD93D !important
+
+.tabla-a-1 thead
+  background-color: #FF8C80 !important
+  border-top: 0px !important
+
+.bgt
+  &-1
+    background-color: #F6F6F6 !important
+  &-2
+    background-color: #FFFFFF !important
+
+.tabs-c__tab--active
+  font-weight: bold !important
+  background-color: #3FC49E
+.tabs-c__content-item
+  background-color: #FAC6C0
+
+.tabs-c__header
+  margin-bottom: 0px
+
+.bloque-texto-g.color-primario
+  border-radius: 0 0 120px 0
+.bloque-texto-g__texto
+  border-radius: 50px 0 90px 50px
+
+.bloque-texto-g.color-secundario
+  background-color: #5AB5FF
+.b1
+  border-radius: 0px !important
+
+.bg-full-width
+  &-1
+    background-size: 100% 45%
+    background-repeat: no-repeat
+    background-position: center
+    margin-inline: -3.3rem
+    @media screen and (max-width: $bp-max-sm)
+      padding-left: 1.5rem
+      padding-right: 1.5rem
+
+.bg-fondo
+  &-1
+    background-image: url("../assets/curso/temas/bg1.png") !important
