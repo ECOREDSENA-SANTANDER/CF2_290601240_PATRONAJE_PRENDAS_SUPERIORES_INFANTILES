@@ -26,10 +26,10 @@ export default {
       tema: 'Interpretación de prendas superiores infantiles para niñas',
       titulo: 'Cuestionario',
       introduccion:
-        'Reconocer los conceptos básicos y transformaciones del patronaje de prendas superiores infantiles para niñas mediante preguntas de verdadero y falso.',
+        '<strong>Objetivo:</strong> reconocer los conceptos básicos y transformaciones del patronaje de prendas superiores infantiles para niñas mediante preguntas de verdadero y falso.',
       barajarPreguntas: true,
-      titulo_aprobado: '¡BUEN TRABAJO!..',
-      titulo_reprobado: 'VUELVA A INTENTARLO..',
+      titulo_aprobado: '¡BUEN TRABAJO!',
+      titulo_reprobado: 'VUELVA A INTENTARLO',
       preguntas: [
         {
           id: 1,

@@ -120,30 +120,20 @@ figcaption
   border-top-right-radius: 50px
   border-bottom-right-radius: 10px
   width: fit-content
-  height: 43px !important
-
+  position: relative
+  padding: 12px 5px 10px 50px
   img
     width: 50px
     z-index: 99
-    margin-top: -2.8%
-  .deco
-    position: relative
-    &::before
-      content: ''
-      position: absolute
-      width: 30px
-      height: 100%
-      background-color: #FAC6C0
-      border-top-right-radius: 100px
-      border-bottom-right-radius: 100px
-      left: 0px
-      top: 0
+    position: absolute
+    bottom: 0px
+    left: 0px
+
 
 .acordion__header--active__btn--a
   background-color: #FF8C80 !important
   h4, i
     color: #000 !important
-
 .acordion
   .tarjeta.bg1
     background-color: #FFEDF5
@@ -163,7 +153,6 @@ figcaption
         &__item
           &__content
             background-color: #AAEDDA !important
-
     &__content
       background-color: #FFEDF5 !important
 
@@ -176,6 +165,12 @@ figcaption
 .tabla-a-1 thead
   background-color: #FF8C80 !important
   border-top: 0px !important
+.tap
+  &-1 
+    th, td
+      padding: 15px 20px
+    .w-1
+      width: 100px
 
 .bgt
   &-1

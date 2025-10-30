@@ -212,51 +212,50 @@ export default {
   referencias: [
     {
       referencia:
-        'Aldrich, W. (2009). <i>Metric pattern cutting for children’s wear and babywear: From birth to 14 years (4th ed.)</i>. Wiley-Blackwell.',
+        'Aldrich, W. (2009). Metric pattern cutting for children’s wear and babywear: From birth to 14 years (4th ed.). Wiley-Blackwell.',
     },
     {
       referencia:
-        'Bunka Fashion College. (2007). <i>Children clothes (Bunka Fashion Series: Garment Design Textbook 8)</i>. Bunka Publishing Bureau. ',
+        'Bunka Fashion College. (2007). Children clothes (Bunka Fashion Series: Garment Design Textbook 8). Bunka Publishing Bureau. ',
     },
     {
       referencia:
-        'Cooklin, G. (1991). <i>Pattern grading for children’s clothes: The technology of sizing</i>. Wiley-Blackwell / BSP Professional Books.',
+        'Cooklin, G. (1991). Pattern grading for children’s clothes: The technology of sizing. Wiley-Blackwell / BSP Professional Books.',
     },
     {
       referencia:
-        'Crim, C. H. (2014). <i>Pattern making for kids’ clothes: All you need to know about designing, adapting, and customizing sewing patterns for children’s clothing</i>. Barron’s.',
+        'Crim, C. H. (2014). Pattern making for kids’ clothes: All you need to know about designing, adapting, and customizing sewing patterns for children’s clothing. Barron’s.',
     },
     {
       referencia:
-        'Crim, C. H. (2015).<i> Patronaje de moda para niños: Todo lo que necesita saber para diseñar, adaptar y personalizar los patrones de costura</i>. Promopress.',
+        'Crim, C. H. (2015). Patronaje de moda para niños: Todo lo que necesita saber para diseñar, adaptar y personalizar los patrones de costura. Promopress.',
     },
     {
       referencia:
-        'Donnanno, A. (2014). <i>Técnicas de patronaje de prendas infantiles de moda</i>. Promopress.',
+        'Donnanno, A. (2014). Técnicas de patronaje de prendas infantiles de moda. Promopress.',
     },
     {
       referencia:
-        'Donnanno, A. (2021). <i>Fashion patternmaking techniques for children’s clothing: Dresses, shirts, bodysuits, trousers, jackets and coats</i>. Hoaki Books. ',
+        'Donnanno, A. (2021). Fashion patternmaking techniques for children’s clothing: Dresses, shirts, bodysuits, trousers, jackets and coats. Hoaki Books. ',
+    },
+    {
+      referencia: 'Ebele, L. (2021). Modelagem infantil: Modele. Amoler.',
     },
     {
       referencia:
-        'Ebele, L. (2021).<i> Modelagem infantil: Modele</i>. Amoler.',
+        'Morgan, P. (1973). Designing and pattern cutting for children’s clothes. B. T. Batsford.',
     },
     {
       referencia:
-        'Morgan, P. (1973). <i>Designing and pattern cutting for children’s clothes</i>. B. T. Batsford.',
+        'Mukai, M. (2018). Modelagem prática especial infantil. (Autoedición.).',
     },
     {
       referencia:
-        'Mukai, M. (2018). <i>Modelagem prática especial infantil</i>. (Autoedición.).',
+        'Rohr, M. (1963). Pattern drafting: Children’s garment design. M. Rohr.',
     },
     {
       referencia:
-        'Rohr, M. (1963). <i>Pattern drafting: Children’s garment design</i>. M. Rohr.',
-    },
-    {
-      referencia:
-        'Servicio Nacional de Aprendizaje. (2023). <i>Normas gráficas para la señalización de patrones</i> (Boletín técnico). SENA.',
+        'Servicio Nacional de Aprendizaje. (2023). Normas gráficas para la señalización de patrones (Boletín técnico). SENA.',
     },
   ],
   creditos: [
@@ -279,9 +278,14 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: ' ',
-          cargo: ' ',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Paola Angélica Castro Salazar',
+          cargo: 'Experta temática',
+          centro: 'Centro Agroturístico - Regional Santander',
+        },
+        {
+          nombre: 'Sandra Paola Morales Páez',
+          cargo: 'Evaluadora instruccional',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -289,13 +293,13 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: ' ',
-          cargo: 'Diseñador de contenidos',
+          nombre: 'Jenny Rocio Reyes Acevedo',
+          cargo: 'Diseñadora de contenidos',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Andrea Paola Botello',
-          cargo: 'Desarrollador <i>full stack</i>',
+          nombre: 'Andrea Paola Botello De la Rosa',
+          cargo: 'Desarrollador <em>full stack</em>',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
@@ -309,13 +313,13 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: ' ',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
+          nombre: 'Andrea Ardila Chaparro',
+          cargo: 'Validadora y vinculadora de recursos educativos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
           nombre: ' ',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          cargo: 'Evaluadora para contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
