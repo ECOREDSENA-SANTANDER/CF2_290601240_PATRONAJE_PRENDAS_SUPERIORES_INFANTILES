@@ -38,11 +38,11 @@
 
     .row.justify-content-center.mb-5
       .col-lg-10       
-        .bg-color-3.br-2.p-2(data-aos="fade-down")
-          .row.align-items-center
-            .col-lg-auto.my-0.my-md-4.my-sm-4(data-aos="fade-right")
-              img.img-a.img-t(src="@/assets/curso/temas/11.svg")
-            .col-lg(data-aos="fade-left")    
+        .bg-color-3.br-2.p-3(data-aos="fade-down")
+          .row.align-items-center.justify-content-center
+            .col-lg-3.col-md-2.col-7(data-aos="fade-right")
+              img(src="@/assets/curso/temas/11.svg")
+            .col-lg-9.col-md-9(data-aos="fade-left")    
               p.mb-0(data-aos="fade-up") 
               ul.lista-ul--color.ico-lista.fa-lista.mb-0
                 li 
@@ -58,7 +58,7 @@
         h3.mb-0.px-3.pe-5 Valor formativo
 
     .row.justify-content-center.align-items-start.mb-5
-      .col-lg-4.mb-0(data-aos="fade-left")
+      .col-lg-4.mb-3.mb-lg-0(data-aos="fade-left")
         img.img-a.img-t(src="@/assets/curso/temas/14.png")
       .col-lg-8
         p(data-aos="fade-down") El estudio del patronaje de prendas superiores infantiles para niñas constituye un proceso formativo que:   
@@ -79,11 +79,11 @@
       h2 1.1 Blusa tipo marinero 
 
     .row.justify-content-center.mb-5
-      .col-lg-4(data-aos="fade-left")
+      .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         .bg-color-4.br-1.p-4.p-lg-5.h-100
           img.img-a.img-t.mb-3(src="@/assets/curso/temas/16.svg")
           p Dentro de las interpretaciones posibles, se destaca la blusa tipo marinero, un diseño clásico que combina frescura, comodidad y un estilo atemporal, ideal para la moda infantil por su versatilidad y adaptabilidad a diferentes contextos. 
-      .col-lg-8(data-aos="fade-right")
+      .col-lg-8(data-aos="fade-left")
         .bg-color-3.p-3.mb-1
           .titulo-sexto.color-acento-contenido.mb-3(data-aos="fade-right")
             h5 Figura 1. 
@@ -398,10 +398,10 @@
       h2 1.2 Blusa cuello bebé manga bombacha 
 
     .row.justify-content-center.mb-5(data-aos="fade")
-      .col-lg-5
-        .bg-color-4.p-3.p-lg-5.h-100.tarjeta
+      .col-lg-5.mb-4.mb-lg-0
+        .bg-color-4.p-4.p-lg-5.h-100.tarjeta
           p.mb-0 Prenda femenina de estilo delicado y romántico. Su diseño se caracteriza por el #[strong cuello redondeado tipo bebé], que aporta ternura y elegancia, combinado con #[strong mangas abullonadas o bombachas], que añaden volumen y un aire sofisticado. Esta prenda suele confeccionarse en telas ligeras como algodón, lino o popelina, lo que garantiza frescura y comodidad, siendo ideal para climas cálidos o para #[em looks] formales con un toque clásico y juvenil.      
-      .col-lg-5
+      .col-lg-5.mb-4.mb-lg-0
         .bg-color-3.p-3
           .titulo-sexto.color-acento-contenido.mb-3
             h5 Figura 7. 
@@ -417,7 +417,7 @@
       .row.p-lg-4(numero="1" titulo="Paso 1. Trazo del delantero")
         p Se inicia con el patrón base del cuerpo delantero, marcando el centro delantero como línea de referencia. Sobre este se definen las medidas principales (hombro, busto y cintura) y se procede a suavizar la línea del escote, que posteriormente se adaptará para incorporar el característico cuello bebé. Este primer trazo constituye la base sobre la cual se realizarán las siguientes transformaciones de diseño.  
         .row.justify-content-center
-          .col-lg-4
+          .col-lg-4.mb-4.mb-lg-0
             .bg-color-3.p-3
               .titulo-sexto.color-acento-contenido.mb-3
                 h5 Figura 8. 
@@ -460,7 +460,7 @@
       .row.p-lg-4(numero="2" titulo="Paso 2. Trazo del patrón de la espalda")
         p Se toma como base el molde posterior del cuerpo, marcando el #[strong centro de la espalda] y trasladando las medidas correspondientes al ancho de hombros, sisa y largo de la prenda. Es importante mantener la proporción con el delantero para garantizar el calce adecuado. El escote posterior se dibuja ligeramente más alto y cerrado que el delantero, lo cual permite un mejor ajuste y comodidad en la zona del cuello. 
         .row.justify-content-center
-          .col-lg-4
+          .col-lg-4.mb-4.mb-lg-0
               .bg-color-3.p-3
                 .titulo-sexto.color-acento-contenido.mb-3
                   h5 Figura 9. 
@@ -507,7 +507,7 @@
       .row.p-lg-4(numero="3" titulo="Paso 3. Trazo de la manga")
         p Se inicia con la #[b base de la manga], sobre la cual se ubican las medidas de ancho y largo. A partir de esta se define la #[b copa], ajustando la curvatura para que coincida con la sisa del delantero y la espalda. Este trazo garantiza movilidad y armonía en la prenda.  
         .row.justify-content-center.mb-4
-          .col-lg-6
+          .col-lg-6.mb-4.mb-lg-0
               .bg-color-3.p-3
                 .titulo-sexto.color-acento-contenido.mb-3
                   h5 Figura 10. 
@@ -515,7 +515,7 @@
                 figure
                   img.img-a.img-t(src="@/assets/curso/temas/fig10.svg" , alt='Molde técnico de manga infantil con copa amplia, donde se señalan medidas de referencia como un ancho central de 10 cm y una base inferior con prolongación de 1.5 cm, que orientan la proporción y ajuste de la pieza.')
               figcaption Fuente: SENA, (2021) 
-          .col-lg-6
+          .col-lg-6.mb-4.mb-lg-0
             .bg-color-3.p-3
               .titulo-sexto.color-acento-contenido.mb-3
                 h5 Figura 11. 
@@ -523,46 +523,47 @@
               figure
                 img.img-a.img-t(src="@/assets/curso/temas/fig11.svg" , alt='Molde rectangular correspondiente a una pieza auxiliar infantil, con medidas de 20 cm de largo, 1.5 cm de ancho y referencia de 9 cm en uno de sus extremos, destinado a complementar el diseño de la prenda.')
             figcaption Fuente: SENA, (2021)                 
-        .titulo-sexto.color-acento-contenido.mb-3
-          h5 Tabla 3.
-          span Proceso de trazado de la manga 
-        .tabla-a.tabla-a-1.tap-1
-          table(alt="Tabla con seis pasos para el trazado de la manga infantil, donde se indican las fórmulas o medidas junto con las acciones a realizar: construcción del rectángulo base, marcación del centro de la copa, definición de altura de frunce, trazado de la curva superior, ajuste de la curva inferior y una revisión final para comprobar la simetría y la correspondencia con la sisa.")
-            thead
-              tr
-                th.w-1 Paso
-                th Fórmula o medida
-                th Trazado
-            tbody
-              tr.bgt-1
-                td.text-bold.text-center 1
-                td.text-start Rectángulo base con ancho de la manga. 
-                td.text-start Construir el rectángulo inicial según la medida de contorno de brazo y largo de manga.
-              tr.bgt-2
-                td.text-bold.text-center 2
-                td.text-start Centro de la copa = 10 cm.
-                td.text-start Medir 10 cm en la parte superior del rectángulo para definir el centro de la copa de la manga.
-              tr.bgt-1
-                td.text-bold.text-center 3
-                td.text-start Altura de frunce = 1,5 cm.
-                td.text-start Marcar 1,5 cm en la línea inferior de la manga para generar ligera curva ascendente.
-              tr.bgt-2
-                td.text-bold.text-center 4
-                td.text-start Curva de la copa.
-                td.text-start Dibujar la curva de la copa uniendo los puntos laterales con el centro marcado en 10 cm.
-              tr.bgt-1
-                td.text-bold.text-center 5
-                td.text-start Curvatura inferior.
-                td.text-start Desde los 1,5 cm señalados, redibujar la línea de bajo de la manga con ligera curva.
-              tr.bgt-2
-                td.text-bold.text-center 6
-                td.text-start Revisión final.
-                td.text-start Confirmar la simetría entre ambos lados de la manga y que la longitud del bajo coincida con el contorno de sisa.                        
+          .col-12
+            .titulo-sexto.color-acento-contenido.mb-3
+              h5 Tabla 3.
+              span Proceso de trazado de la manga 
+            .tabla-a.tabla-a-1.tap-1
+              table(alt="Tabla con seis pasos para el trazado de la manga infantil, donde se indican las fórmulas o medidas junto con las acciones a realizar: construcción del rectángulo base, marcación del centro de la copa, definición de altura de frunce, trazado de la curva superior, ajuste de la curva inferior y una revisión final para comprobar la simetría y la correspondencia con la sisa.")
+                thead
+                  tr
+                    th.w-1 Paso
+                    th Fórmula o medida
+                    th Trazado
+                tbody
+                  tr.bgt-1
+                    td.text-bold.text-center 1
+                    td.text-start Rectángulo base con ancho de la manga. 
+                    td.text-start Construir el rectángulo inicial según la medida de contorno de brazo y largo de manga.
+                  tr.bgt-2
+                    td.text-bold.text-center 2
+                    td.text-start Centro de la copa = 10 cm.
+                    td.text-start Medir 10 cm en la parte superior del rectángulo para definir el centro de la copa de la manga.
+                  tr.bgt-1
+                    td.text-bold.text-center 3
+                    td.text-start Altura de frunce = 1,5 cm.
+                    td.text-start Marcar 1,5 cm en la línea inferior de la manga para generar ligera curva ascendente.
+                  tr.bgt-2
+                    td.text-bold.text-center 4
+                    td.text-start Curva de la copa.
+                    td.text-start Dibujar la curva de la copa uniendo los puntos laterales con el centro marcado en 10 cm.
+                  tr.bgt-1
+                    td.text-bold.text-center 5
+                    td.text-start Curvatura inferior.
+                    td.text-start Desde los 1,5 cm señalados, redibujar la línea de bajo de la manga con ligera curva.
+                  tr.bgt-2
+                    td.text-bold.text-center 6
+                    td.text-start Revisión final.
+                    td.text-start Confirmar la simetría entre ambos lados de la manga y que la longitud del bajo coincida con el contorno de sisa.                        
       .row.p-lg-4(numero="4" titulo="Paso 4. Trazo del cuello bebé ")
         .row.justify-content-center
           .col-lg-6
             p Sobre el escote del delantero y la espalda ya trazados, se procede a delimitar la forma característica del #[strong cuello bebé], marcando primero la base de apoyo y luego el contorno redondeado que lo distingue. El molde se desarrolla de manera simétrica para asegurar equilibrio en ambos lados de la prenda.               
-          .col-lg-6
+          .col-lg-6.mb-4.mb-lg-0
             .bg-color-3.p-3
               .titulo-sexto.color-acento-contenido.mb-3
                 h5 Figura 12. 
@@ -570,41 +571,42 @@
               figure
                 img.img-a.img-t(src="@/assets/curso/temas/fig12.svg" , alt='Molde técnico infantil que integra delantero, sisa y copa de la manga, con indicaciones de medidas de 9 cm en varios puntos de unión y un ajuste de 1.5 cm en la parte superior, orientado a garantizar el ensamble entre cuerpo y manga de la prenda.')
             figcaption Fuente: SENA, (2021) 
-        .titulo-sexto.color-acento-contenido.mb-3
-          h5 Tabla 4.
-          span Proceso de trazado del cuello bebé 
-        .tabla-a.tabla-a-1.tap-1
-          table(alt="Tabla con seis pasos para el trazado del cuello bebé, en la que se indican fórmulas o medidas y las acciones correspondientes: modificación del escote, definición de la base con 9 cm, elevación de 1.5 cm para dar altura, construcción de la curva superior, desarrollo del patrón como pieza independiente y revisión final para comprobar ajuste y simetría.")
-            thead
-              tr
-                th.w-1 Paso
-                th Fórmula o medida
-                th Trazado
-            tbody
-              tr.bgt-1
-                td.text-bold.text-center 1
-                td.text-start Escote modificado.
-                td.text-start Redibujar el escote delantero según el diseño, ampliando la curva para recibir el cuello.
-              tr.bgt-2
-                td.text-bold.text-center 2
-                td.text-start Medida de cuello = 9 cm.
-                td.text-start Desde el escote delantero y trasero marcar 9 cm hacia el interior para definir la base del cuello.
-              tr.bgt-1
-                td.text-bold.text-center 3
-                td.text-start Altura del cuello = 1,5 cm. 
-                td.text-start Levantar 1,5 cm desde la base del cuello hacia arriba. 
-              tr.bgt-2
-                td.text-bold.text-center 4
-                td.text-start Curva superior del cuello.
-                td.text-start Unir los puntos marcados con una línea curva suave que forme el contorno externo del cuello bebé.
-              tr.bgt-1
-                td.text-bold.text-center 5
-                td.text-start Desarrollo del patrón del cuello.
-                td.text-start Separar la pieza resultante (independizar la forma del cuello) para su confección como pieza aparte.
-              tr.bgt-2
-                td.text-bold.text-center 6
-                td.text-start Revisión final.
-                td.text-start Es necesario confirmar que la medida del cuello coincida con la abertura del escote y que las líneas sean simétricas.                        
+          .col-12
+            .titulo-sexto.color-acento-contenido.mb-3
+              h5 Tabla 4.
+              span Proceso de trazado del cuello bebé 
+            .tabla-a.tabla-a-1.tap-1
+              table(alt="Tabla con seis pasos para el trazado del cuello bebé, en la que se indican fórmulas o medidas y las acciones correspondientes: modificación del escote, definición de la base con 9 cm, elevación de 1.5 cm para dar altura, construcción de la curva superior, desarrollo del patrón como pieza independiente y revisión final para comprobar ajuste y simetría.")
+                thead
+                  tr
+                    th.w-1 Paso
+                    th Fórmula o medida
+                    th Trazado
+                tbody
+                  tr.bgt-1
+                    td.text-bold.text-center 1
+                    td.text-start Escote modificado.
+                    td.text-start Redibujar el escote delantero según el diseño, ampliando la curva para recibir el cuello.
+                  tr.bgt-2
+                    td.text-bold.text-center 2
+                    td.text-start Medida de cuello = 9 cm.
+                    td.text-start Desde el escote delantero y trasero marcar 9 cm hacia el interior para definir la base del cuello.
+                  tr.bgt-1
+                    td.text-bold.text-center 3
+                    td.text-start Altura del cuello = 1,5 cm. 
+                    td.text-start Levantar 1,5 cm desde la base del cuello hacia arriba. 
+                  tr.bgt-2
+                    td.text-bold.text-center 4
+                    td.text-start Curva superior del cuello.
+                    td.text-start Unir los puntos marcados con una línea curva suave que forme el contorno externo del cuello bebé.
+                  tr.bgt-1
+                    td.text-bold.text-center 5
+                    td.text-start Desarrollo del patrón del cuello.
+                    td.text-start Separar la pieza resultante (independizar la forma del cuello) para su confección como pieza aparte.
+                  tr.bgt-2
+                    td.text-bold.text-center 6
+                    td.text-start Revisión final.
+                    td.text-start Es necesario confirmar que la medida del cuello coincida con la abertura del escote y que las líneas sean simétricas.                        
 
 
     Separador
@@ -626,7 +628,7 @@
     PasosA.color-acento-contenido(tipo="n" data-aos="fade-down")
       .row.justify-content-center.align-items-center
         h5.mb-4 Paso 1. Trazo del patrón del delantero 
-        .col-lg-8          
+        .col-lg-8.mb-4.mb-lg-0          
           .titulo-sexto.color-acento-contenido.mb-3
             h5 Tabla 5.
             span Proceso de trazado del delantero de la camisera
@@ -676,7 +678,7 @@
             figcaption Fuente: SENA, (2021) 
       .row.justify-content-center.align-items-center.text-start
         h5.mb-4 Paso 2. Trazo del patrón de la espalda 
-        .col-lg-4
+        .col-lg-4.mb-4.mb-lg-0
           .bg-color-3.p-3
             .titulo-sexto.color-acento-contenido.mb-3
               h5 Figura 15. 
@@ -718,7 +720,7 @@
                   td.text-start Medir y marcar 8 cm desde la base para ajuste de la prenda.    
       .row.justify-content-center.align-items-center
         h5.mb-4 Paso 3. Trazo del patrón de la manga camisera 
-        .col-lg-8
+        .col-lg-8.mb-4.mb-lg-0
           .titulo-sexto.color-acento-contenido.mb-3
             h5 Tabla 7.
             span Proceso de trazado de la manga de la camisera 
@@ -814,8 +816,8 @@
       h2 1.4 Blusa con manga raglán 
 
     .row.justify-content-center.mb-5
-      .col-lg-5
-        .bg-color-5.p-3.p-lg-5.h-100.tarjeta(data-aos="fade-down")
+      .col-lg-5.mb-4.mb-lg-0
+        .bg-color-5.p-4.p-lg-5.h-100.tarjeta(data-aos="fade-down")
           p.mb-0 La blusa con #[b manga raglán] se caracteriza porque la pieza de la manga se prolonga hasta el escote, eliminando la costura tradicional del hombro. Este diseño ofrece mayor comodidad, amplitud de movimiento y un estilo deportivo o casual, aunque también puede adaptarse a propuestas más elegantes según el tipo de tela y acabados utilizados. En moda infantil, la manga raglán resulta funcional y atractiva, ya que facilita la confección y proporciona un ajuste suave y ergonómico sobre los hombros.    
       .col-lg-7(data-aos="fade-left")
         .bg-color-3.p-3
@@ -831,7 +833,7 @@
     TabsC.color-acento-botones
       .py-3.py-md-4(titulo="Paso 1. Trazo del posterior")
         .row.justify-content-center
-          .col-lg-4
+          .col-lg-4.col-11.mb-4.mb-lg-0
               .bg-color-3.p-3
                 .titulo-sexto.color-acento-contenido.mb-3
                   h5 Figura 19. 
@@ -839,7 +841,7 @@
                 figure
                   img.img-a.img-t(src="@/assets/curso/temas/fig19.svg" , alt='Molde técnico de blusa manga raglán infantil con manga integrada al cuerpo. Incluye referencias de medidas para el escote, hombro, sisa, largo de manga y ajustes de 1.5 cm en diferentes puntos de construcción, además de líneas guías que definen proporciones')
               figcaption Fuente: SENA, (2021)       
-          .col-lg-7
+          .col-lg-7.col-11
             .titulo-sexto.color-acento-contenido.mb-3
               h5 Tabla 9.
               span Proceso de trazado del posterior de la blusa manga raglán 
@@ -893,7 +895,7 @@
                     td.text-start Es necesario confirmar que la curva raglán coincida entre manga y cuerpo, ajustando las líneas.  
       .py-3.py-md-4(titulo="Paso 2. Trazo del patrón del delantero")
         .row.justify-content-center
-          .col-lg-4
+          .col-lg-4.col-11.mb-4.mb-lg-0
               .bg-color-3.p-3
                 .titulo-sexto.color-acento-contenido.mb-3
                   h5 Figura 20. 
@@ -901,7 +903,7 @@
                 figure
                   img.img-a.img-t(src="@/assets/curso/temas/fig20.svg" , alt='Molde técnico de blusa infantil con manga raglán integrada. Presenta referencias de medidas en hombro, escote, sisa, largo de manga y bolsillos de 10 × 10 cm, además de ajustes de 1.5 cm en varios puntos, con líneas guías que estructuran la unión entre cuerpo y manga.')
               figcaption Fuente: SENA, (2021)       
-          .col-lg-7
+          .col-lg-7.col-11
             .titulo-sexto.color-acento-contenido.mb-3
               h5 Tabla 10.
               span Proceso de trazado del delantero de la blusa manga raglán  
@@ -982,7 +984,7 @@
         h3.mb-0.px-3.pe-5 Paso 1. Trazo del patrón del delantero  
 
     .row.justify-content-center.mb-5
-      .col-lg-4(data-aos='fade-right')
+      .col-lg-4.mb-4.mb-lg-0(data-aos='fade-right')
           .bg-color-3.p-3
             .titulo-sexto.color-acento-contenido.mb-3
               h5 Figura 22. 
@@ -1045,7 +1047,7 @@
         h3.mb-0.px-3.pe-5 Paso 2. Trazó del patrón del posterior 
 
     .row.justify-content-center
-      .col-lg-4(data-aos='fade-right')
+      .col-lg-4.mb-4.mb-lg-0(data-aos='fade-right')
           .bg-color-3.p-3
             .titulo-sexto.color-acento-contenido.mb-3
               h5 Figura 23. 
@@ -1100,8 +1102,8 @@
       h2 1.6 Chaqueta casual para niña 
 
     .row.justify-content-center.bg-color-6.mb-5
-      .col-lg-4.p-0(data-aos="fade-right")        
-          img.img-a.img-t(src="@/assets/curso/temas/42.png" , alt='')
+      .col-lg-4.col-md-7.mb-4.mb-lg-0(data-aos="fade-right")        
+          img(src="@/assets/curso/temas/42.png" , alt='')
       .col-lg-8.j1(data-aos="fade-left")
         .p-3
           img.img-t.mb-3(src="@/assets/curso/temas/43.png")
@@ -1119,18 +1121,18 @@
 
     AcordionA(tipo="a" clase-tarjeta="tarjeta bg1" data-aos="fade-down")
       .row.justify-content-center(titulo="Paso 1. Trazo del delantero y posterior ")
-        .col-lg-6
+        .col-lg-6.mb-4
           .bg-color-3.p-3
             .titulo-sexto.color-acento-contenido.mb-3
               h5 Figura 25. 
               span Trazo del patrón delantero y posterior de la chaqueta    
             figure
-              img.img-a.img-t(src="@/assets/curso/temas/fig25.svg" , alt='Molde técnico del cuerpo superior femenino, compuesto por delantero y posterior con sus respectivas líneas de referencia: hombros, busto, cintura y costadillos. Incluye pinzas para ajuste en busto y cintura, además de piezas complementarias como vistas, todo organizado con indicaciones de corte al centro y al costado.')
+              img(src="@/assets/curso/temas/fig25.svg" , alt='Molde técnico del cuerpo superior femenino, compuesto por delantero y posterior con sus respectivas líneas de referencia: hombros, busto, cintura y costadillos. Incluye pinzas para ajuste en busto y cintura, además de piezas complementarias como vistas, todo organizado con indicaciones de corte al centro y al costado.')
           figcaption Fuente: Donnanno, (2018)           
-        .col-lg-5
+        .col-lg-5.mb-4.d-none.d-lg-block
           img.img-a.img-t(src="@/assets/curso/temas/46.png")
         .col-lg-11
-          .titulo-sexto.color-acento-contenido.mb-3.mt-5
+          .titulo-sexto.color-acento-contenido.mb-3
             h5 Tabla 13.
             span Proceso de trazado de la chaqueta  
           .tabla-a.tabla-a-1.tap-1.mb-4
@@ -1180,18 +1182,18 @@
           .bg-color-5.tarjeta.p-4
             p.mb-0 #[strong Nota:] estas medidas varían de acuerdo con la interpretación de cada talla, para ello se ajustarán, lo importante es seguir el modelo de trazado.  
       .row.justify-content-center(titulo="Paso 2. Trazo de la manga")
-        .col-lg-5
+        .col-lg-5.mb-4
           .bg-color-3.p-3
             .titulo-sexto.color-acento-contenido.mb-3
               h5 Figura 26. 
               span Trazo del patrón de la manga de la chaqueta    
             figure
-              img.img-a.img-t(src="@/assets/curso/temas/fig26.svg" , alt='Molde técnico de manga infantil acompañado de cortes de transformación. Se observan tres secciones señaladas con líneas verticales de referencia, indicando repartición proporcional del ancho, además de la copa en la parte superior y las flechas que marcan la dirección del hilo de la tela.')
+              img(src="@/assets/curso/temas/fig26.svg" , alt='Molde técnico de manga infantil acompañado de cortes de transformación. Se observan tres secciones señaladas con líneas verticales de referencia, indicando repartición proporcional del ancho, además de la copa en la parte superior y las flechas que marcan la dirección del hilo de la tela.')
           figcaption Fuente: Donnanno, (2018)             
-        .col-lg-5
+        .col-lg-5.d-none.d-lg-block.mb-4
           img.img-a.img-t(src="@/assets/curso/temas/48.png")
         .col-lg-11
-          .titulo-sexto.color-acento-contenido.mb-3.mt-5
+          .titulo-sexto.color-acento-contenido.mb-3
             h5 Tabla 14.
             span Proceso de trazado de la manga de la chaqueta 
           .tabla-a.tabla-a-1.tap-1
@@ -1259,7 +1261,7 @@
     .bg-full-width-1.bg-fondo-1.py-4
       .px-4.px-md-5
         .row.justify-content-center.mb-5
-          .col-lg-4(data-aos='fade-right')
+          .col-lg-4.mb-4.mb-lg-0(data-aos='fade-right')
               .bg-color-3.p-3
                 .titulo-sexto.color-acento-contenido.mb-3
                   h5 Figura 28. 
@@ -1321,7 +1323,7 @@
                     td.text-start Es necesario confirmar que delantero y trasero coincidan en costados, dejando márgenes de costura (1 - 1,5 cm). 
 
     .row.justify-content-center.mb-5
-      .col-lg-5(data-aos="fade-left")
+      .col-lg-5.mb-4.mb-lg-0(data-aos="fade-left")
         .bg-color-3.p-3
           .titulo-sexto.color-acento-contenido.mb-3
             h5 Figura 29. 
@@ -1329,7 +1331,7 @@
           figure
             img.img-a.img-t(src="@/assets/curso/temas/fig29.svg" , alt='Molde técnico infantil compuesto por delantero y trasero sin mangas. Cada pieza presenta líneas de referencia para tórax, busto y cintura, que permiten ubicar proporciones y ajustes.')
         figcaption Fuente: Donnanno, (2018) 
-      .col-lg-4(data-aos="fade-down").j1
+      .col-lg-4.d-none.d-lg-block(data-aos="fade-down").j1
         img.img-t.mb-3(data-aos='fade-up')(src="@/assets/curso/temas/53.png")             
       .col-lg-3(data-aos="fade-right")
         .bg-color-3.p-3
@@ -1399,7 +1401,7 @@
     img.img-t.my-5(data-aos='fade-down')(src="@/assets/curso/temas/55.png")  
 
     .row.justify-content-center.mb-5
-      .col-lg-4(data-aos='fade-right')
+      .col-lg-4.mb-4.mb-lg-0(data-aos='fade-right')
           .bg-color-3.p-3
             .titulo-sexto.color-acento-contenido.mb-3
               h5 Figura 31. 
@@ -1455,22 +1457,22 @@
     img.img-t.my-5(src="@/assets/curso/temas/57.png" data-aos='fade-down')  
 
     .row.justify-content-center.mb-5
-      .col-lg-6(data-aos='fade-right')
-          .bg-color-3.h-100.p-3
-            .titulo-sexto.color-acento-contenido.mb-3
-              h5 Figura 32. 
-              span Despiece de la camiseta
-            figure
-              img.img-a.img-t(src="@/assets/curso/temas/fig32.svg" , alt='Molde técnico infantil compuesto por delantero y trasero sin mangas. Cada pieza está organizada con líneas de referencia horizontales para hombros, tórax, cintura y bajos, además de ejes verticales que marcan el centro de cada parte')
-          figcaption Fuente: Donnanno, (2018)                 
-      .col-lg-6(data-aos='fade-left')
-          .bg-color-3.h-100.p-3
-            .titulo-sexto.color-acento-contenido.mb-3
-              h5 Figura 33. 
-              span Despiece de la manga de la camiseta 
-            figure
-              img.img-a.img-t(src="@/assets/curso/temas/fig33.svg" , alt='Molde técnico de manga infantil dividido en delantero y trasero. Presenta una copa redondeada en la parte superior, con línea central vertical de referencia en el centro hombro.')
-          figcaption Fuente: Donnanno, (2018)  
+      .col-lg-6.mb-4.mb-lg-0(data-aos='fade-right')
+        .bg-color-3.p-3
+          .titulo-sexto.color-acento-contenido.mb-3
+            h5 Figura 32. 
+            span Despiece de la camiseta
+          figure.py-lg-3
+            img(src="@/assets/curso/temas/fig32.svg" , alt='Molde técnico infantil compuesto por delantero y trasero sin mangas. Cada pieza está organizada con líneas de referencia horizontales para hombros, tórax, cintura y bajos, además de ejes verticales que marcan el centro de cada parte')
+        figcaption Fuente: Donnanno, (2018)                 
+      .col-lg-6.mb-4.mb-lg-0(data-aos='fade-left')
+        .bg-color-3.p-3
+          .titulo-sexto.color-acento-contenido.mb-3
+            h5 Figura 33. 
+            span Despiece de la manga de la camiseta 
+          figure.px-lg-5
+            img(src="@/assets/curso/temas/fig33.svg" , alt='Molde técnico de manga infantil dividido en delantero y trasero. Presenta una copa redondeada en la parte superior, con línea central vertical de referencia en el centro hombro.')
+        figcaption Fuente: Donnanno, (2018)  
   
 
 </template>
