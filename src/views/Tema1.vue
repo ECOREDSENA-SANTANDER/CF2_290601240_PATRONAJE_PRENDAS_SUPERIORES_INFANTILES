@@ -43,13 +43,12 @@
             .col-lg-3.col-md-2.col-7(data-aos="fade-right")
               img(src="@/assets/curso/temas/11.svg")
             .col-lg-9.col-md-9(data-aos="fade-left")    
-              p.mb-0(data-aos="fade-up") 
-              ul.lista-ul--color.ico-lista.fa-lista.mb-0
+              ul.lista-ul--color.fa-lista.mb-0
                 li 
-                  img.img-a.img-t(src="@/assets/curso/temas/12.svg", alt="")
+                  i.fas.fa-star
                   span #[b Canesú:] pieza de tela que se coloca en la parte superior de una prenda (espalda, pecho o hombros) para dar forma o decoración.
                 li.mb-0 
-                  img.img-a.img-t(src="@/assets/curso/temas/12.svg", alt="")
+                  i.fas.fa-star
                   span.mb-0 #[b Frunces:] pliegues o arrugas pequeñas que se hacen en la tela al recogerla con puntadas o elásticos. 
 
     .subt.mb-5(data-aos="fade-right")
@@ -331,9 +330,9 @@
               h5 Figura 5. 
               span Trazo del patrón del cuello marinero             
             figure
-              img.img-a.img-t(src="@/assets/curso/temas/fig5.svg" , alt='Molde técnico de la manga infantil con transformación al estilo marinero, donde se indican medidas y ajustes específicos en la copa, el largo y las inclinaciones laterales, señalados con líneas y valores que orientan el trazado de la pieza.')
+              img.img-a.img-t(src="@/assets/curso/temas/fig5.svg" , alt='Molde técnico del cuello marinero, donde se indican medidas y ajustes específicos en la copa, el largo y las inclinaciones laterales, señalados con líneas y valores que orientan el trazado de la pieza.')
           figcaption Fuente: SENA, (2021) 
-      .row.justify-content-center(titulo="Paso 5. Trazo de la manga ")
+      .row.justify-content-center(titulo="Paso 5. Trazo lateral del cuello marinero")
         .col-lg-7
           h5 A. Rectángulo base 
           ul.lista-ul--color.ico-lista.fa-lista.mb-0
@@ -387,9 +386,9 @@
           .bg-color-3.p-3
             .titulo-sexto.color-acento-contenido.mb-3
               h5 Figura 6. 
-              span Trazo del patrón de la manga             
+              span Trazo lateral del cuello marinero            
             figure
-              img.img-a.img-t(src="@/assets/curso/temas/fig6.svg" , alt='Molde técnico de una manga infantil en vista simétrica, con copa definida mediante curvas superiores ajustadas en 0.7 cm y referencias de altura central de 7 cm y 6 cm, que orientan la proporción y el armado de la pieza.')
+              img.py-lg-5(src="@/assets/curso/temas/fig6.svg" , alt='Se presenta el trazo lateral del cuello marinero compuesto por una base recta, una línea central vertical que divide el patrón en dos partes y dos elevaciones superiores de 7 cm en el centro. En ambos extremos superiores se marca un punto a 0,7 cm para formar una curva suave hacia el centro. En la parte inferior se registra una caída de 6 cm, también medida desde la línea central. Los bordes laterales se inclinan ligeramente hacia adentro para ajustar la forma del cuello.')
           figcaption Fuente: SENA, (2021) 
 
 
@@ -654,7 +653,7 @@
                   td.text-start Añadir extensión en el centro delantero para el cruce de botones.   
                 tr.bgt-1
                   td.text-bold.text-center 4
-                  td.text-start Altura de bolsillo = 9 cm Ancho de bolsillo = 9 cm. 
+                  td.text-start Altura de bolsillo = 9 cm. #[br]Ancho de bolsillo = 9 cm. 
                   td.text-start Trazar un rectángulo de 9 * 9 cm y redondear la parte inferior.   
                 tr.bgt-1
                   td.text-bold.text-center 5 
@@ -778,7 +777,7 @@
             h5 Tabla 8.
             span Proceso de trazado del cuello camisero 
           .tabla-a.tabla-a-1.tap-1
-            table(alt="Tabla con seis pasos para el trazado del puño infantil, que establece las fórmulas y medidas junto con el procedimiento: construcción del rectángulo base, marcación de alturas superior, intermedia y derecha, trazado de curva inferior punteada, definición de la curva superior y verificación final de la forma inclinada del puño.")
+            table(alt="Tabla con seis pasos para el trazado del cuello camisero, que establece las fórmulas y medidas junto con el procedimiento: construcción del rectángulo base, marcación de alturas superior, intermedia y derecha, trazado de curva inferior punteada, definición de la curva superior y verificación final de la forma inclinada del puño.")
               thead
                 tr
                   th.w-1 Paso
@@ -1044,7 +1043,7 @@
     .subt.mb-5(data-aos="fade-right")
       .d-flex.align-items-center.deco
         img(src='@/assets/curso/temas/13.svg', alt='')
-        h3.mb-0.px-3.pe-5 Paso 2. Trazó del patrón del posterior 
+        h3.mb-0.px-3.pe-5 Paso 2. Trazo del patrón del posterior 
 
     .row.justify-content-center
       .col-lg-4.mb-4.mb-lg-0(data-aos='fade-right')
@@ -1081,7 +1080,7 @@
                 td.text-start Construir el rectángulo inferior de la falda trasera. 
               tr.bgt-2
                 td.text-bold.text-center 4
-                td.text-start Amplitud lateral = +3 cm. 
+                td.text-start Amplitud lateral = + 3 cm. 
                 td.text-start Añadir 3 cm en el costado inferior de la falda para dar mayor holgura. 
               tr.bgt-1
                 td.text-bold.text-center 5
@@ -1115,7 +1114,7 @@
         span Diseño de chaqueta cruzada casual para niña
       figure
         img.img-a.img-t(src="@/assets/curso/temas/44.png" , alt='Diseño de chaqueta infantil con cierre lateral cruzado al frente, cuello camisero, bolsillos verticales y mangas largas. La vista posterior presenta cortes de entalle y un canesú inferior que aporta estructura al diseño.')
-    figcaption.mb-5 Fuente: Donnanno, (2018)
+    figcaption.mb-5 Fuente: Donnanno, (2021)
 
     p.mb-4 A continuación, se presentan los pasos para el trazo del patronaje de la chaqueta cruzada casual para niña. 
 
@@ -1128,7 +1127,7 @@
               span Trazo del patrón delantero y posterior de la chaqueta    
             figure
               img(src="@/assets/curso/temas/fig25.svg" , alt='Molde técnico del cuerpo superior femenino, compuesto por delantero y posterior con sus respectivas líneas de referencia: hombros, busto, cintura y costadillos. Incluye pinzas para ajuste en busto y cintura, además de piezas complementarias como vistas, todo organizado con indicaciones de corte al centro y al costado.')
-          figcaption Fuente: Donnanno, (2018)           
+          figcaption Fuente: Donnanno, (2021)           
         .col-lg-5.mb-4.d-none.d-lg-block
           img.img-a.img-t(src="@/assets/curso/temas/46.png")
         .col-lg-11
@@ -1188,10 +1187,10 @@
               h5 Figura 26. 
               span Trazo del patrón de la manga de la chaqueta    
             figure
-              img(src="@/assets/curso/temas/fig26.svg" , alt='Molde técnico de manga infantil acompañado de cortes de transformación. Se observan tres secciones señaladas con líneas verticales de referencia, indicando repartición proporcional del ancho, además de la copa en la parte superior y las flechas que marcan la dirección del hilo de la tela.')
-          figcaption Fuente: Donnanno, (2018)             
+              img.px-lg-5(src="@/assets/curso/temas/fig26.svg" , alt='Molde técnico de manga infantil acompañado de cortes de transformación. Se observan tres secciones señaladas con líneas verticales de referencia, indicando repartición proporcional del ancho, además de la copa en la parte superior y las flechas que marcan la dirección del hilo de la tela.')
+          figcaption Fuente: Donnanno, (2021)             
         .col-lg-5.d-none.d-lg-block.mb-4
-          img.img-a.img-t(src="@/assets/curso/temas/48.png")
+          img(src="@/assets/curso/temas/48.png")
         .col-lg-11
           .titulo-sexto.color-acento-contenido.mb-3
             h5 Tabla 14.
@@ -1244,7 +1243,7 @@
               span Despiece de los patrones de la chaqueta    
             figure
               img.img-a.img-t(src="@/assets/curso/temas/fig27.svg" , alt='Conjunto de moldes técnicos para una chaqueta infantil. Incluye piezas del delantero, posterior, costadillo, cuello, manga y vista inferior, todas señaladas con flechas que indican la dirección del hilo de la tela y referencias de corte para su correcta confección.')
-          figcaption Fuente: Donnanno, (2018) 
+          figcaption Fuente: Donnanno, (2021) 
 
 
     Separador
@@ -1268,7 +1267,7 @@
                   span Trazo de la camisilla
                 figure
                   img.img-a.img-t(src="@/assets/curso/temas/fig28.svg" , alt='Molde técnico del cuerpo básico infantil, dividido en delantero y trasero. Presenta líneas horizontales de referencia para busto, tórax, cintura y bajos, además de curvas que definen escotes, hombros y sisas. Incluye medidas numéricas y puntos de construcción que guían la proporción y el ajuste del patrón.')
-              figcaption Fuente: Donnanno, (2018)      
+              figcaption Fuente: Donnanno, (2021)      
           .col-lg-8(data-aos='fade-left')
             .titulo-sexto.color-acento-contenido.mb-3
               h5 Tabla 15.
@@ -1330,7 +1329,7 @@
             span Despiece de la camisilla
           figure
             img.img-a.img-t(src="@/assets/curso/temas/fig29.svg" , alt='Molde técnico infantil compuesto por delantero y trasero sin mangas. Cada pieza presenta líneas de referencia para tórax, busto y cintura, que permiten ubicar proporciones y ajustes.')
-        figcaption Fuente: Donnanno, (2018) 
+        figcaption Fuente: Donnanno, (2021) 
       .col-lg-4.d-none.d-lg-block(data-aos="fade-down").j1
         img.img-t.mb-3(data-aos='fade-up')(src="@/assets/curso/temas/53.png")             
       .col-lg-3(data-aos="fade-right")
@@ -1340,7 +1339,7 @@
             span Trazo de la camiseta    
           figure
             img.img-a.img-t(src="@/assets/curso/temas/fig30.svg" , alt='Molde técnico del cuerpo básico infantil dividido en delantero y trasero. Incluye líneas de referencia para tórax, busto, hombros, cintura y bajos, con curvas que definen escotes y sisas.')
-        figcaption Fuente: Donnanno, (2018)
+        figcaption Fuente: Donnanno, (2021)
 
     .titulo-sexto.color-acento-contenido.mb-3(data-aos='fade')
       h5 Tabla 16.
@@ -1408,7 +1407,7 @@
               span Trazo del patrón de la manga
             figure
               img.img-a.img-t(src="@/assets/curso/temas/fig31.svg" , alt='Molde técnico de manga infantil con división en delantero y trasero. Contiene líneas que marcan hombro y centro, además de curvas diferenciadas para cada copa. ')
-          figcaption Fuente: Donnanno, (2018)     
+          figcaption Fuente: Donnanno, (2021)     
       .col-lg-8(data-aos='fade-left')
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Tabla 17.
@@ -1464,7 +1463,7 @@
             span Despiece de la camiseta
           figure.py-lg-3
             img(src="@/assets/curso/temas/fig32.svg" , alt='Molde técnico infantil compuesto por delantero y trasero sin mangas. Cada pieza está organizada con líneas de referencia horizontales para hombros, tórax, cintura y bajos, además de ejes verticales que marcan el centro de cada parte')
-        figcaption Fuente: Donnanno, (2018)                 
+        figcaption Fuente: Donnanno, (2021)                 
       .col-lg-6.mb-4.mb-lg-0(data-aos='fade-left')
         .bg-color-3.p-3
           .titulo-sexto.color-acento-contenido.mb-3
@@ -1472,7 +1471,7 @@
             span Despiece de la manga de la camiseta 
           figure.px-lg-5
             img(src="@/assets/curso/temas/fig33.svg" , alt='Molde técnico de manga infantil dividido en delantero y trasero. Presenta una copa redondeada en la parte superior, con línea central vertical de referencia en el centro hombro.')
-        figcaption Fuente: Donnanno, (2018)  
+        figcaption Fuente: Donnanno, (2021)  
   
 
 </template>

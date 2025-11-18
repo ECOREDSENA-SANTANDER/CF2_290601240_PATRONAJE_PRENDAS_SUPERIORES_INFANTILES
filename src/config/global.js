@@ -46,7 +46,7 @@ export default {
           },
           {
             numero: '1.2',
-            titulo: 'Blusa cuello bebe manga bombacha',
+            titulo: 'Blusa cuello bebé manga bombacha',
             hash: 't_1_2',
           },
           {
@@ -56,7 +56,7 @@ export default {
           },
           {
             numero: '1.4',
-            titulo: 'Blusa con manga ranglan',
+            titulo: 'Blusa con manga raglán',
             hash: 't_1_4',
           },
           {
@@ -124,11 +124,12 @@ export default {
   },
   complementario: [
     {
-      tema: 'Patronaje de prendas superiores para niñas. ',
+      tema: 'Patronaje de prendas superiores para niñas.',
       referencia:
-        'Servicio Nacional de Aprendizaje, SENA. (2021).  Interpretación prenda superior.  Ecosistema de recursos educativos.  ',
+        'Ecosistema de Recursos Educativos Digitales SENA. (2025). Interpretación prenda superior.',
       tipo: 'Video',
-      link: 'https://youtu.be/v2uZp0Z1Flg',
+      link:
+        'https://www.youtube.com/watch?v=10wM7sYr3wM&ab_channel=EcosistemadeRecursosEducativosDigitalesSENA',
     },
   ],
   glosario: [
@@ -302,8 +303,8 @@ export default {
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: ' ',
-          cargo: 'Animador y productor audiovisual',
+          nombre: 'Maria Alejandra Vera Briceño',
+          cargo: 'Animadora y productora audiovisual',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
@@ -313,11 +314,11 @@ export default {
       autores: [
         {
           nombre: 'Andrea Ardila Chaparro',
-          cargo: 'Validadora y vinculadora de recursos educativos digitales',
+          cargo: 'Evaluadora para contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: ' ',
+          nombre: 'Erika Fernanda Mejía Pinzón',
           cargo: 'Evaluadora para contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },
