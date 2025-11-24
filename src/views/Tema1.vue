@@ -786,8 +786,8 @@
               tbody
                 tr.bgt-1
                   td.text-bold.text-center 1 
-                  td.text-start Rectángulo base del puño. 
-                  td.text-start Construir un rectángulo con el ancho del contorno de muñeca y el alto deseado del puño.     
+                  td.text-start Rectángulo base del cuello. 
+                  td.text-start Construir un rectángulo con el ancho total del escote y el alto deseado para el cuello según diseño. 
                 tr.bgt-1
                   td.text-bold.text-center 2
                   td.text-start Altura = 3 cm (línea superior). 
