@@ -36,7 +36,7 @@ export default {
           texto:
             'El patronaje infantil considera la morfología en crecimiento, lo que exige precisión en la toma de medidas y proporciones.',
           imagen: require('@/assets/actividad/imagen1.png'),
-          barajarRespuestas: true,
+          barajarRespuestas: false,
           opciones: [
             {
               id: 'a',
@@ -57,7 +57,7 @@ export default {
           texto:
             'La blusa tipo marinero se caracteriza por un escote redondeado tipo bebé y mangas bombachas.',
           imagen: require('@/assets/actividad/imagen1.png'),
-          barajarRespuestas: true,
+          barajarRespuestas: false,
           opciones: [
             {
               id: 'a',
@@ -78,7 +78,7 @@ export default {
           texto:
             'El canesú es una pieza de tela que se coloca en la parte superior de la prenda para dar forma o decoración.',
           imagen: require('@/assets/actividad/imagen1.png'),
-          barajarRespuestas: true,
+          barajarRespuestas: false,
           opciones: [
             {
               id: 'a',
@@ -99,7 +99,7 @@ export default {
           texto:
             'La manga raglán elimina la costura del hombro y se une directamente al escote.',
           imagen: require('@/assets/actividad/imagen1.png'),
-          barajarRespuestas: true,
+          barajarRespuestas: false,
           opciones: [
             {
               id: 'a',
@@ -120,7 +120,7 @@ export default {
           texto:
             'La jardinera para niña se compone de un peto delantero, tirantes y una falda o pantalón integrado.',
           imagen: require('@/assets/actividad/imagen1.png'),
-          barajarRespuestas: true,
+          barajarRespuestas: false,
           opciones: [
             {
               id: 'a',
@@ -141,7 +141,7 @@ export default {
           texto:
             'La camisera para niña no incluye detalles como cuello ni botonadura, ya que se trata de una prenda deportiva.',
           imagen: require('@/assets/actividad/imagen1.png'),
-          barajarRespuestas: true,
+          barajarRespuestas: false,
           opciones: [
             {
               id: 'a',
@@ -162,7 +162,7 @@ export default {
           texto:
             'La chaqueta casual para niña se caracteriza por ser ligera y práctica, pensada para climas frescos.',
           imagen: require('@/assets/actividad/imagen1.png'),
-          barajarRespuestas: true,
+          barajarRespuestas: false,
           opciones: [
             {
               id: 'a',
@@ -183,7 +183,7 @@ export default {
           texto:
             'La camiseta y la camisilla son prendas básicas que se trazan a partir del patrón base del cuerpo.',
           imagen: require('@/assets/actividad/imagen1.png'),
-          barajarRespuestas: true,
+          barajarRespuestas: false,
           opciones: [
             {
               id: 'a',
@@ -204,7 +204,7 @@ export default {
           texto:
             'La blusa cuello bebé con manga bombacha combina un diseño romántico con mangas voluminosas.',
           imagen: require('@/assets/actividad/imagen1.png'),
-          barajarRespuestas: true,
+          barajarRespuestas: false,
           opciones: [
             {
               id: 'a',
@@ -225,7 +225,7 @@ export default {
           texto:
             'El patronaje infantil se limita a la construcción de moldes básicos sin transformaciones de diseño.',
           imagen: require('@/assets/actividad/imagen1.png'),
-          barajarRespuestas: true,
+          barajarRespuestas: false,
           opciones: [
             {
               id: 'a',
