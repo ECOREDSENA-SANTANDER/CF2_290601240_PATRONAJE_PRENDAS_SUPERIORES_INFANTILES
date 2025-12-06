@@ -128,8 +128,7 @@ export default {
       referencia:
         'Ecosistema de Recursos Educativos Digitales SENA. (2025). Interpretación prenda superior.',
       tipo: 'Video',
-      link:
-        'https://www.youtube.com/watch?v=10wM7sYr3wM&ab_channel=EcosistemadeRecursosEducativosDigitalesSENA',
+      link: 'https://youtu.be/v2uZp0Z1Flg',
     },
   ],
   glosario: [
